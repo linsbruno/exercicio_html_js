@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #min {font-size: 8pt;
+        margin-top: 10px;}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Formulário JavaScript</h1>
+        <h2> Instruções para validação</h2>
+            <ul>
+                <li>Será <strong>OBRIGATÓIO</strong> o preenchimento dos campos;</li>
+                <li>O campo "B" deverá ser <strong>MAIOR</strong> que o campo "A"</li>
+                <li>Caso alguns dos requisitos acima não forem cumpridos, será exibida uma mensagem ao usuário. </li>
+                <p id="min"><strong>OBS.: </strong>So serão aceitos elementos <strong>Numéricos</strong> nos campos.</p>
+            </ul>
+
+        
+        <form id="numeros">
+            <input type="number" id="a" required placeholder="Campo A" >
+            <input type="number" id="b" required placeholder="Campo B" >
+            <button type="submit" id="btn">Verificar</button>
+        </form>
+    </div>
+    <script src="style.js"></script>        
+    
+</body>
+</html>
